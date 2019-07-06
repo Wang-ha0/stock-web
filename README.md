@@ -1,4 +1,4 @@
-# leyou-manage-web
+# stock-web
 
 > A Vue.js project
 
