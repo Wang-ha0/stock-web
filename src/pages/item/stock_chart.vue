@@ -1,5 +1,11 @@
 <template>
   <v-container fluid grid-list-md>
+    <v-toolbar class="elevation-0" style="color: #409EFF">
+      <v-spacer/>
+      <v-toolbar-title v-text="stock.stockId"/>
+      <v-toolbar-title v-text="stock.stockName"/>
+      <v-spacer/>
+    </v-toolbar>
     <v-layout row wrap>
       <v-flex xs10 md6>
         <v-card>
@@ -49,7 +55,7 @@
             trigger: 'axis'
           },
           legend: {
-            data:['开盘价','收盘价','最低价','直接访问','最高价']
+            data:['开盘价','收盘价','最低价','最高价']
           },
           xAxis: {
             type: 'category',
@@ -92,7 +98,7 @@
             trigger: 'axis'
           },
           legend: {
-            data:['开盘价','收盘价','最低价','直接访问','最高价']
+            data:['开盘价','收盘价','最低价','最高价']
           },
           xAxis: {
             type: 'category',
@@ -135,7 +141,7 @@
             trigger: 'axis'
           },
           legend: {
-            data:['开盘价','收盘价','最低价','直接访问','最高价']
+            data:['开盘价','收盘价','最低价','最高价']
           },
           xAxis: {
             type: 'category',
@@ -178,7 +184,7 @@
             trigger: 'axis'
           },
           legend: {
-            data:['开盘价','收盘价','最低价','直接访问','最高价']
+            data:['开盘价','收盘价','最低价','最高价']
           },
           xAxis: {
             type: 'category',

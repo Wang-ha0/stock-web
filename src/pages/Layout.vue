@@ -71,14 +71,7 @@
       <v-toolbar-title v-text="title"/>
       <v-spacer/>
 
-      <!-- 调色板 -->
-      <v-btn icon @click.stop="dark = !dark">
-        <v-icon>invert_colors</v-icon>
-      </v-btn>
-      <!-- 顶部导航用户菜单 -->
-      <v-btn icon @click.stop="dark = !dark">
-        <v-icon>account_box</v-icon>
-      </v-btn>
+
     </v-toolbar>
     <!--中间内容主体-->
     <v-content>
